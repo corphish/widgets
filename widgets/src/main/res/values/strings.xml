@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KeyValueView</string>
+    <string name="default_key_text">Key</string>
+    <string name="default_value_text">Value</string>
+</resources>

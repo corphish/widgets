@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.corphish.keyvalueviewtest.MainActivity">
+
+    <com.corphish.widgets.KeyValueView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:keyText="Test Key"
+        app:valueText="Test value"
+        app:keyTextColor="@color/colorPrimary"
+        app:keyStyle="bold|italic"
+        app:methodForValue="getText"
+        app:valueBackgroundColor="@color/colorAccent"/>
+
+    <com.corphish.widgets.KeyValueView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:keyText="Oh god please work?"
+        app:valueText="Test value"
+        app:keyStyle="bold"
+        app:methodForValue="com.corphish.keyvalueviewtest.SomeOtherClass.getSomeText"/>
+
+</LinearLayout>

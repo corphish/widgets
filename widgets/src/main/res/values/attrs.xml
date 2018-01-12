@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyValueView">
+        <!-- Text property for key and value -->
+        <attr name="keyText" format="string" localization="suggested" />
+        <attr name="valueText" format="string" localization="suggested" />
+
+        <!-- Text size property for key and value -->
+        <attr name="keySize" format="dimension" />
+        <attr name="valueSize" format="dimension" />
+
+        <!-- Enabled property for key and value -->
+        <attr name="keyEnabled" format="boolean" />
+        <attr name="valueEnabled" format="boolean" />
+
+        <!-- Style property for key and value -->
+        <attr name="keyStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="valueStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <!-- Absolute spacing property for key and value -->
+        <attr name="absoluteSpacing" format="dimension" />
+        <attr name="absoluteSpacingTop" format="dimension" />
+        <attr name="absoluteSpacingBottom" format="dimension" />
+
+        <!-- Relative spacing property for key and value -->
+        <attr name="relativeSpacing" format="dimension" />
+        <attr name="relativeSpacingTop" format="dimension" />
+        <attr name="relativeSpacingBottom" format="dimension" />
+
+        <!-- Text color property for key and value -->
+        <attr name="keyTextColor" format="color" />
+        <attr name="valueTextColor" format="color" />
+
+        <!-- Background color property for key and value -->
+        <attr name="keyBackgroundColor" format="color" />
+        <attr name="valueBackgroundColor" format="color" />
+
+        <!-- Method property for value -->
+        <!-- This method will be executed and result will be displayed as value -->
+        <!-- The method needs to return String -->
+        <attr name="methodForValue" />
+    </declare-styleable>
+</resources>

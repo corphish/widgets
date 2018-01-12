@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing">1dp</dimen>
+    <dimen name="keySize">17sp</dimen>
+    <dimen name="valueSize">13sp</dimen>
+</resources>
