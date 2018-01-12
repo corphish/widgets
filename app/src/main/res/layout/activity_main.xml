@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        app:keyText="Test Key"
+        app:keyText="@string/app_name"
         app:valueText="Test value"
         app:keyTextColor="@color/colorPrimary"
         app:keyStyle="bold|italic"
