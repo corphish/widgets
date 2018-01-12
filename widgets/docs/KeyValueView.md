@@ -33,4 +33,4 @@ Most of the methods are used up by properties. See the [source](https://github.c
 Additionally there are `getKeyTextView()` and `getValueTextView()` methods which return the respective TextViews, on which you can do other TextView actions that it supports.
 
 ### Screenshot
-       
+![](assets/kv.png) 
