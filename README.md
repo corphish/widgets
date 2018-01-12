@@ -7,17 +7,17 @@ Could be useful for others too.
 - Add the jitpack repo in __root level__ `build.gradle` if not already.
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 - Add the library dependency in __app level__ `build.gradle`.
 ```
 dependencies {
-	  compile 'com.github.corphish:Widgets:1.0'
-	}
+	compile 'com.github.corphish:Widgets:1.0'
+}
 ```
 
 ## Widgets present
