@@ -14,6 +14,7 @@
         app:descriptionText="But John Cena! He could be here"
         app:titleStyle="bold"
         app:titleSize="20sp"
+        app:srcCompat="@drawable/ic_sentiment_dissatisfied_black_128dp"
         app:descriptionSize="14sp"
         app:viewTint="#cdcdcd"
         android:layout_width="wrap_content"
