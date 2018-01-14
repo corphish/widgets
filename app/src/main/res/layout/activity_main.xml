@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.corphish.keyvalueviewtest.MainActivity">
 
-    <com.corphish.widgets.KeyValueView
+
+    <com.corphish.widgets.PlaceholderView
+        android:layout_margin="4dp"
+        app:titleText="Nothing here"
+        app:descriptionText="But John Cena! He could be here"
+        app:titleStyle="bold"
+        app:titleSize="20sp"
+        app:descriptionSize="14sp"
+        app:viewTint="#cdcdcd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        app:keyText="@string/app_name"
-        app:valueText="Test value"
-        app:keyTextColor="@color/colorPrimary"
-        app:keyStyle="bold|italic"
-        app:methodForValue="getText"
-        app:valueBackgroundColor="@color/colorAccent"/>
+        android:layout_centerInParent="true"/>
 
-    <com.corphish.widgets.KeyValueView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        app:keyText="Oh god please work?"
-        app:valueText="Test value"
-        app:keyStyle="bold"
-        app:methodForValue="com.corphish.keyvalueviewtest.SomeOtherClass.getSomeText"/>
-
-</LinearLayout>
+</RelativeLayout>
