@@ -1,5 +1,5 @@
 # Widgets
-[![](https://jitpack.io/v/corphish/Widgets.svg)](https://jitpack.io/#corphish/Widgets) 
+[![](https://jitpack.io/v/corphish/Widgets.svg)](https://jitpack.io/#corphish/Widgets)  
 Collection of custom views or widgets that I use in my apps.
 Could be useful for others too.
 
