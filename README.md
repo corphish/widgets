@@ -22,6 +22,7 @@ dependencies {
 
 ## Widgets present
 - [KeyValueView](https://github.com/corphish/Widgets/blob/master/widgets/docs/KeyValueView.md)
+- [PlaceholderView](https://github.com/corphish/Widgets/blob/master/widgets/docs/PlaceholderView.md)
 
 ## License
 GPLv3
