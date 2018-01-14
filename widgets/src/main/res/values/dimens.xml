@@ -3,4 +3,6 @@
     <dimen name="spacing">1dp</dimen>
     <dimen name="keySize">17sp</dimen>
     <dimen name="valueSize">13sp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="descSize">12sp</dimen>
 </resources>

@@ -48,4 +48,33 @@
         <!-- The method needs to return String -->
         <attr name="methodForValue" />
     </declare-styleable>
+
+    <declare-styleable name="PlaceholderView">
+        <!-- Text property for title and desc -->
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="descriptionText" format="string" localization="suggested" />
+
+        <!-- Image properties -->
+        <attr name="srcCompat" format="reference"/>
+        <attr name="imageHeight" format="dimension"/>
+        <attr name="imageWidth" format="dimension" />
+
+        <attr name="titleSize" format="dimension" />
+        <attr name="descriptionSize" format="dimension" />
+
+        <!-- Tint color -->
+        <attr name="viewTint" format="color" />
+
+        <!-- Style property for title and desc -->
+        <attr name="titleStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="descriptionStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+    </declare-styleable>
 </resources>

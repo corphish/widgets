@@ -2,4 +2,6 @@
     <string name="app_name">KeyValueView</string>
     <string name="default_key_text">Key</string>
     <string name="default_value_text">Value</string>
+    <string name="placeholder_title">Placeholder Title</string>
+    <string name="placeholder_desc">Placeholder description goes here</string>
 </resources>
