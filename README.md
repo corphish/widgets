@@ -16,7 +16,7 @@ allprojects {
 - Add the library dependency in __app level__ `build.gradle`.
 ```
 dependencies {
-	compile 'com.github.corphish:widgets:1.0'
+	compile 'com.github.corphish:widgets:1.1'
 }
 ```
 
