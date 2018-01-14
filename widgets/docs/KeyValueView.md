@@ -3,7 +3,7 @@ A view containing 2 TextViews in a vertical LinearLayout, one will show a headin
 
 ### Usage
 Assuming you already have configured jitpack and added the dependency for this library in your project gradle files, simply add this in your layout to include it.
-```
+```xml
 <com.corphish.widgets.KeyValueView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"/>
@@ -33,4 +33,28 @@ Most of the methods are used up by properties. See the [source](https://github.c
 Additionally there are `getKeyTextView()` and `getValueTextView()` methods which return the respective TextViews, on which you can do other TextView actions that it supports.
 
 ### Screenshot
+###### Code
+```xml
+<com.corphish.widgets.KeyValueView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:keyText="@string/app_name"
+        app:valueText="Test value"
+        app:keyTextColor="@color/colorPrimary"
+        app:keyStyle="bold|italic"
+        app:methodForValue="getText"
+        app:valueBackgroundColor="@color/colorAccent"/>  
+        
+
+<com.corphish.widgets.KeyValueView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:keyText="Oh god please work?"
+        app:valueText="Test value"
+        app:keyStyle="bold"
+        app:methodForValue="com.corphish.keyvalueviewtest.SomeOtherClass.getSomeText"/>
+```  
+###### Result
 ![](assets/kv.png) 
