@@ -90,7 +90,7 @@ public class KeyValueView extends LinearLayout {
         key = findViewById(R.id.key);
         value = findViewById(R.id.value);
 
-        dpi = Resources.getSystem().getDisplayMetrics().densityDpi/DisplayMetrics.DENSITY_DEFAULT;
+        dpi = (float)Resources.getSystem().getDisplayMetrics().densityDpi/(float)DisplayMetrics.DENSITY_DEFAULT;
 
         processProperties(context, attributeSet);
     }
