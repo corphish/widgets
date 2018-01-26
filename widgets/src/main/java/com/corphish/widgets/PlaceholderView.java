@@ -99,8 +99,8 @@ public class PlaceholderView extends RelativeLayout {
                     continue;
                 }
                 if (property == R.styleable.PlaceholderView_srcCompat) {
-                    Drawable drawable = typedArray.getDrawable(property);
-                    if (drawable != null) setImageDrawable(drawable);
+                    int drawable = typedArray.getResourceId(property, R.drawable.ic_sentiment_neutral_black_64dp);
+                    setImageResourceId(drawable);
                     continue;
                 }
                 if (property == R.styleable.PlaceholderView_imageHeight) {
