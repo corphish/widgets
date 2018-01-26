@@ -65,7 +65,7 @@ public class PlaceholderView extends RelativeLayout {
         titleTV = findViewById(R.id.placeholder_title_tv);
         imageView = findViewById(R.id.placeholder_image);
 
-        dpi = Resources.getSystem().getDisplayMetrics().densityDpi/ DisplayMetrics.DENSITY_DEFAULT;
+        dpi = (float)Resources.getSystem().getDisplayMetrics().densityDpi/ (float)DisplayMetrics.DENSITY_DEFAULT;
 
         processProperties(context, attributeSet);
     }
