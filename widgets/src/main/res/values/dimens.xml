@@ -5,4 +5,8 @@
     <dimen name="valueSize">13sp</dimen>
     <dimen name="titleSize">18sp</dimen>
     <dimen name="descSize">12sp</dimen>
+
+    <dimen name="defaultBottomSheetHeight">256dp</dimen>
+    <dimen name="defaultMargin">8dp</dimen>
+    <dimen name="defaultPadding">4dp</dimen>
 </resources>
