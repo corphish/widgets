@@ -30,6 +30,7 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
+import android.support.annotation.StyleRes;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -188,6 +189,12 @@ public class KeyValueView extends LinearLayout {
 
                     String methodName = typedArray.getString(property);
                     if (methodName != null) processMethod(methodName);
+                }
+                if (property == R.styleable.KeyValueView_keyAppearance) {
+                    setKeyTextAppearance(typedArray.getResourceId(property, android.R.attr.textAppearance));
+                }
+                if (property == R.styleable.KeyValueView_valueAppearance) {
+                    setValueTextAppearance(typedArray.getResourceId(property, android.R.attr.textAppearanceSmall));
                 }
             }
             typedArray.recycle();
@@ -452,6 +459,22 @@ public class KeyValueView extends LinearLayout {
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)
     public void setValueRelativeDrawables(@DrawableRes int start, @DrawableRes int top, @DrawableRes int end, @DrawableRes int bottom) {
         value.setCompoundDrawablesRelativeWithIntrinsicBounds(start, top, end, bottom);
+    }
+
+    /**
+     * Sets text appearance of key
+     * @param appearance Appearance
+     */
+    public void setKeyTextAppearance(@StyleRes int appearance) {
+        key.setTextAppearance(getContext(), appearance);
+    }
+
+    /**
+     * Sets text appearance of value
+     * @param appearance Appearance
+     */
+    public void setValueTextAppearance(@StyleRes int appearance) {
+        value.setTextAppearance(getContext(), appearance);
     }
 
     /**

@@ -43,6 +43,10 @@
         <attr name="keyBackgroundColor" format="color" />
         <attr name="valueBackgroundColor" format="color" />
 
+        <!-- Appearance for each text view -->
+        <attr name="keyAppearance" />
+        <attr name="valueAppearance" />
+
         <!-- Method property for value -->
         <!-- This method will be executed and result will be displayed as value -->
         <!-- The method needs to return String -->
